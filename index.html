@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Diaries</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body> 
+    <nav class="navbar">
+        <h1 class="logo">Indian Institute of Information Technology, Ranchi</h1>
+        <ul class="nav-links">
+            <li ><a href="#" id="home">Home</a></li>
+            <li ><a href="explore.html" id="cl">Explore</a></li>
+            <a href="about.html"><li  class="ctn">Let's Connect!</li></a>
+        </ul>
+        <img src="http://assets.stickpng.com/images/588a6507d06f6719692a2d15.png" alt="Menu" class="menu-btn">
+    </nav>
+    <div class="header"></div>
+
+    <section class="events">
+        <div class="title">
+            <h1>Let's explore some of the best times of our lives</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <a href="explore.html#camp"><img src="https://github.com/piperio-17/CollegeMemories/blob/main/image/photo1.jpg?raw=true" alt="IMG1"></a>
+                <h2>Campus Life At IIITR</h2>
+                <p><i>College is the reward for surviving high school.</i></p>
+            </div>
+            <div class="col">
+                <a href="explore.html#hoss"><img src="https://github.com/piperio-17/CollegeMemories/blob/main/image/photo3.jpg?raw=true" alt="IMG2"></a> 
+                <h2>Hostel Life At IIITR</h2>
+                <p><i>An emotion combined with many emotions.</i></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORING RANCHI</h1>
+            <div class="line"></div>
+            <p style="font-size: 3vmin;"><i>There is no man who is more complete than the one  who travels a lot. 
+                He changed twenty times the way he thinks and his outlook on life.</i></p>
+            <a href="explore.html#tou" class="ctn">Click here</a>
+        </div>
+    </section>
+
+    <section class="footer">
+        <!-- <p>Shaitan gali, Khatra mahal, Andher nagar, Shamshan ke samne</p> -->
+        <p><i>Unexpected Friendships are the best ones!</i></p>
+        <p>Made with ❤️ by <a href="https://github.com/noobmaster432">Noobmaster432</a> , <a href="https://github.com/mysteryhawk17">Mysteryhawk17</a> , <a href="https://github.com/manushukla02">Manushukla02</a></p>
+    </section>
+</body>
+<script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+    })
+</script>
+</html>

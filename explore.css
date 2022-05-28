@@ -1,0 +1,407 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&family=Roboto:wght@100&family=Tiro+Devanagari+Hindi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Flex:opsz,wght@8..144,100&family=Roboto:wght@100&family=Tiro+Devanagari+Hindi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins'); 
+body,html
+{
+    /* overflow-x: hidden; */
+}
+*
+
+/*Navbar Starts */
+/* .navbar
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding:20px;
+    color: black;
+
+}
+.logo
+{
+    
+    padding: 2px 3px;
+    
+    font-weight: bold;
+    font-size: 5vmin;
+    
+    font-family: Roboto;
+    
+}
+.navbar .nav-links li a
+{
+    text-decoration: none;
+    color:whitesmoke;
+
+}
+#home
+{
+    color: #fc035b;
+    /* text-decoration: underline; 
+    font-weight: bold;  
+}
+#home:hover
+{
+    text-decoration: underline;
+    font-size: x-large;
+   
+}
+#cl
+{
+    color: #fc035b;
+     text-decoration: underline; 
+    font-weight: bold;  
+}
+#cl:hover
+{
+    text-decoration: underline;
+    font-size: x-large;
+}
+.navbar ul
+{
+    list-style: none;
+}
+.nav-links
+{
+    display: flex;
+    align-items: center;
+
+}
+.nav-links li
+{
+   margin: 0px 20px;
+}
+.ctn{
+    padding: 8px 15px;
+    background:#fc035b ;
+    color: whitesmoke ;
+    border-radius: 30px;    
+}
+.ctn:hover
+{
+    font-size: x-large;
+    text-decoration: underline  ;
+    
+} */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: black;
+}
+.logo {
+    padding: 2px 3px;
+    font-weight: bold;
+    font-size: 5vmin;
+    font-family: Roboto;
+}
+
+
+.navbar .nav-links li a {
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+#home {
+    color: black;
+    font-weight: bold;  
+}
+#home:hover {
+    color: whitesmoke;
+    font-size: x-large;
+}
+#cl {
+    color: black;
+    font-weight: bold;  
+}
+#cl:hover {
+    color: whitesmoke;
+    font-size: x-large;
+}
+.navbar ul {
+    list-style: none;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+}
+.nav-links li {
+   margin: 0px 20px;
+}
+.nav-links a .ctn:hover {
+    background: whitesmoke;
+    color: #fc036b;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #00000056;
+    font-size: large;
+}
+.ctn {
+    padding: 8px 15px;
+    color: whitesmoke;
+    background: #fc036b;
+    border-radius: 30px;    
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Nav Bar ends*/
+.clicke
+{
+    text-decoration: none;
+}
+body
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header
+{
+    
+    box-sizing: border-box;
+    /* background: url(https://raw.githubusercontent.com/piperio-17/CollegeMemories/main/photo7.jpg); */
+    /* background: url(https://github.com/piperio-17/CollegeMemories/blob/main/image/photo6.jpg?raw=true); */
+    background: url(https://github.com/piperio-17/CollegeMemories/blob/main/image/photo4.jpg?raw=true);
+    height: 150vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+    /* background-color: cyan; */
+}
+
+/*CAMPUS*/
+.campus{
+
+background: rgb(179, 255, 255);
+background: url(https://wallpaperaccess.com/full/831436.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.campus h1
+{
+    text-align: center;
+    font-family: Lobster;
+    font-size: 7vmin;
+}
+
+.imgcamp
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 5%;
+}
+.imgc
+{
+width: 50%;
+}
+.academic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mess
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.auditorium
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.library
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vidcamp
+{
+    margin-left: 35%;
+    
+}
+/*HOSTEL*/
+.title
+{
+    text-align: center;
+    font-family: Lobster;
+    font-size: 7vmin;
+}
+/*Slidehow*/
+.container
+{
+    overflow: hidden;
+    width: 70%;
+    height: 600px;
+    margin-left: 20%;
+ 
+}
+.container figure
+{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left:0;
+    animation: 20s container infinite;
+
+
+}
+.img
+{
+    float: left;
+    width: 20%;
+    height: 500px;
+}
+
+@keyframes container {
+    0%
+    {
+        left: 0%;
+    }
+    20%
+    {
+        left: 0%;
+    }
+    25%
+    {
+        left: -100%;
+    }
+    45%
+    {
+        left: -100%;
+    }
+    50%
+    {
+        left: -200%;
+    }
+    70%
+    {
+        left: -200%;
+    }
+    75%
+    {
+        left: -300%;
+    }
+    95%
+    {
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+/*Hostel video*/
+.titlev
+{
+    margin-top: 5%;
+    text-align: center;
+    /* font-family: Lobster; */
+    font-size: 7vmin; 
+}
+.vid{
+    /* background: rgb(155, 215, 215); */
+}
+.videos
+{
+    margin-top: 5%;
+   display: flex;
+  
+   justify-content: space-around;
+}
+.videos video
+{
+    border-radius: 15px;
+    
+}
+/*Exploring Places*/
+
+.tours
+{
+    /* margin-top: 5%; */
+    background: rgb(155, 215, 215);
+    /* border-radius: 15px; */
+    
+    margin-top: 5%;
+}
+.tours .row
+{
+    display: flex;
+}
+.tours .row .col1
+{
+display: flex;
+margin-left: 10%;
+flex-direction: column;
+align-items: center;
+
+}
+.tours .row .col .image-gallery
+{
+    margin-left: 15%;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    flex-wrap: wrap;
+}
+
+.tours .row .col1 h1
+{
+    
+    text-align: center;
+    font-family: Lobster;
+    font-size: 7vmin; 
+}
+.tours .row .col1 p
+{
+    font-size: 4vmin;
+    font-style: italic;
+    font-variant: small-caps;
+}
+.tours .row h1
+{
+    font-size: 5vmin;
+}
+/* .tours .row  .col .image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+} */
+.image-gallery img
+{
+    width: 250px;
+    margin: 10px;
+}
+.imge1
+{
+    height: 90%;
+}
+.explorevid
+{
+    margin-left: 10%;
+    /* height: 150px; */
+}
+/*FOOTER*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    color: whitesmoke;
+}
