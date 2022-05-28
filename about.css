@@ -4,6 +4,11 @@ body,html
 {
     overflow-x: hidden;
 }
+*
+{
+    margin-bottom: 0;
+    margin-left: 0;
+}
 .navbar {
     position: absolute;
     top: 0;
@@ -26,20 +31,23 @@ body,html
 }
 
 #home {
-    color: black;
-    font-weight: bold;  
+    
+    color: red;
+    font-weight: bold; 
+   
 }
 #home:hover {
-    color: whitesmoke;
-    font-size: x-large;
+    
+    color: black;
+    
 }
 #cl {
-    color: black;
+    color: red;
     font-weight: bold;  
 }
 #cl:hover {
-    color: whitesmoke;
-    font-size: x-large;
+    color: black;
+   
 }
 .navbar ul {
     list-style: none;
@@ -56,7 +64,7 @@ body,html
     color: #fc036b;
     cursor: pointer;
     box-shadow: 2px 2px 5px #00000056;
-    font-size: large;
+    
 }
 .ctn {
     padding: 8px 15px;
@@ -78,19 +86,11 @@ a {
 .main
 {
     display: flex;
-    margin-top: 15%;
+    margin-top: 10%;
     justify-content: space-around;
     
 }
-/* .main{
-    text-align: center;
-    justify-content: space-evenly;
-} */
-/* .main > div{
-    width: 20%;
-    height: 10%;
-    background: bisque;
-} */
+
 
 .gyan{
    
@@ -99,80 +99,97 @@ a {
     align-items: center;
     background-color: white;
     border-radius: 10%;
-    padding: 4px 0;
+    padding: 74px 0;
+    
+    justify-content: center;
+
 }
-/* .gyan:hover{
-    width: 30%;
-    height: 30%;
-} */
+
 .gyanlinked{
     height: 50px;
     width: 40px;
     border-radius: 10px;
 }
-/* .gyanlinked:hover{
-    height: 60px;
-    width: 50px;
 
-} */
 .insta1{
     height:50px;
     width: 40px;
     border:10px ;
     
 }
-/* .insta1:hover
+.img1 h2
 {
-    height: 60px;
-    width: 50px;
-    
-}    */
+    margin-bottom: 5px;
+}
 .git1{
     height: 50px;
     width: 40px;
     border-radius: 10px;
 }
-/* .git1:hover{
-    height: 60px;
-    width: 50px;
 
-} */
-.icon
+.gyan .icon .gyanlinked
 {
-    display: flex;
-    
-    
-    width: 100px;
-    padding:0% 100px;
+   padding: 0px 15px;
     
 }
-/*
-.manu{
-    display: inline-block;
+.gyan .icon .insta1
+{
+   padding: 0px 15px;
+    
 }
-.yash{
-    float: right;
-} */
+.gyan .icon .git1
+{
+   padding: 1px 15px;
+    
+}
+.yash .icon .gyanlinked
+{
+   padding: 0px 15px;
+    
+}
+.yash .icon .insta1
+{
+   padding: 0px 15px;
+    
+}
+.yash .icon .git1
+{
+   padding: 1px 15px;
+    
+}
+.manu .icon .gyanlinked
+{
+   padding: 0px 15px;
+    
+}
+.manu .icon .insta1
+{
+   padding: 0px 15px;
+    
+}
+.manu .icon .git1
+{
+   padding: 1px 15px;
+    
+}
+
 .manu{
     
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 4px 0;
+    padding: 74px 0;
     background-color: white;
     border-radius: 10%;
 }
-/* .manu:hover{
-    width:30%;
-    height: 30%;
 
-} */
+
 .yash{
     
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 4px 0;
+    padding: 74px 0;
     background-color: white;
     border-radius: 10%;
     
@@ -181,15 +198,13 @@ h5{
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(247, 88, 149);
+    margin-bottom: 15px;
 
 }
 .a{
     text-align: center;
 }
-/* .yash:hover{
-    height: 30%;
-    width:30%
-} */
+
 h2{
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 0%;
@@ -210,6 +225,21 @@ body{
     
 }
 
-h1{
-
+.footer {
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 50px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    background: whitesmoke;
+    text-align: center;
+}
+.footer p {
+    color: black;
+    /* margin: 20px auto; */
+    padding: 20px auto;
+}
+.footer a {
+    text-decoration: none;
+    color: rgb(199, 29, 29);
 }
