@@ -289,7 +289,7 @@ align-items: center;
 .tours .row .col .image-gallery
 {
     margin-top: 15px;
-    margin-left: 15%;
+    /* margin-left: 0%; */
     display: grid;
     grid-template-columns:1fr 1fr;
     flex-wrap: wrap;
@@ -304,8 +304,9 @@ align-items: center;
 }
 .tours .row .col1 p
 {
+    margin-top: 10px;
     font-size: 4vmin;
-    font-style: italic;
+    /* font-style: italic; */
     font-variant: small-caps;
 }
 .tours .row h1

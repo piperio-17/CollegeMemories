@@ -213,6 +213,7 @@ p {
         position: absolute;
         top: 30px;
         left: 30px;
+        
     }
     .nav-links {
         flex-direction: column;
@@ -220,7 +221,7 @@ p {
         height: 100vh;
         justify-content: center;
         background: #484872;
-        margin-top: -900px;
+        margin-top: -1100px;/*Change 2*/
         transition: all 0.5s ease;
     }
     .mobile-menu {

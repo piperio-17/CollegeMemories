@@ -66,6 +66,10 @@ body,html
     box-shadow: 2px 2px 5px #00000056;
     
 }
+.menu-btn
+{
+    display: none;
+}
 .ctn {
     padding: 8px 15px;
     color: whitesmoke;
@@ -91,7 +95,18 @@ a {
     
 }
 
-
+.textm
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textg
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
 .gyan{
    
     display: flex;
@@ -100,7 +115,6 @@ a {
     background-color: white;
     border-radius: 10%;
     padding: 74px 0;
-    
     justify-content: center;
 
 }
@@ -243,3 +257,261 @@ body{
     text-decoration: none;
     color: rgb(199, 29, 29);
 }
+
+@media only screen and (max-width:450px){
+    .navbar {
+        padding: 0;
+    }
+    body,html
+    {
+        overflow-x: hidden;
+    }
+    .logo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        font-size: 5vmin;
+        
+    }
+    .menu-btn {
+        display: block;
+        width: 40px;
+        /* margin-top: 15px; */
+        margin-right: 25px;
+        /* margin-bottom: 10px; */
+    }
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: #484872;
+        margin-top: -1100px;/*Change 2*/
+        transition: all 0.5s ease;
+    }
+    .mobile-menu {
+        margin-top: 0px;
+        border-bottom-right-radius: 30%;
+        
+    }
+    .nav-links li {
+        margin: 30px auto;
+    }
+   
+    .main{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        /* width: fit-content; */
+    }
+    .manu{
+    
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        width: 260px;
+        background-color: white;
+        border-radius: 10%;
+        margin-bottom: 40px; */
+        display: flex;
+        flex-direction: row;
+        padding-top: 15px;
+        padding-bottom: 15ppx;
+        
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .imgm
+    {
+        width: 130px;
+        padding-left: 15px;
+    }
+    .textm
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .yash{
+        
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 460px;
+        background-color: white;
+        border-radius: 10%;
+        margin-bottom: 40px; */
+        display: flex;
+        flex-direction: row;
+        
+        padding-top: 15px;
+        padding-bottom: 15ppx;
+        
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+    .imgy
+    {
+        width: 130px;
+        padding-left: 15px;  
+    }
+    .gyan{
+   
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        border-radius: 10%;
+        width: 460px;
+        margin-bottom: 40px;
+        justify-content: center;
+         margin-top: 60px; */
+         display: flex;
+        flex-direction: row;
+        padding-top: 15px;
+        padding-bottom: 15ppx;
+        /* margin-left:5px; */
+        margin-right: 10px;
+        margin-bottom: 15px;
+        margin-top: 55px;
+    
+    }
+    .textg
+    {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .textg h2
+    {
+        font-size: 4vmin;
+    }
+    .imgg
+    {
+        width: 130px;
+        padding-left: 15px;  
+    }
+    .footer {
+        width: 100%;
+        min-height: 100px;
+        padding: 20px 10px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        background: whitesmoke;
+        text-align: center;
+    }
+
+}
+
+    @media only screen and (max-width: 800px) and (min-width: 450px){
+    .navbar {
+        padding: 0;
+    }
+    body,html
+    {
+        overflow-x: hidden;
+    }
+    .logo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        
+    }
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: #484872;
+        margin-top: -1100px;/*Change 2*/
+        transition: all 0.5s ease;
+    }
+    .mobile-menu {
+        margin-top: 0px;
+        border-bottom-right-radius: 30%;
+        
+    }
+    .nav-links li {
+        margin: 30px auto;
+    }
+    .menu-btn {
+        display: block;
+        width: 60px;
+        margin-right: 35px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        padding-left:135px;
+        width: fit-content;
+    }
+    .manu{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        width: 460px;
+        background-color: white;
+        border-radius: 10%;
+        margin-bottom: 40px;
+        /* margin-left: 35px; */
+    }
+    
+    
+    .yash{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 460px;
+        background-color: white;
+        border-radius: 10%;
+        margin-bottom: 40px;
+        /* margin-left: 35px; */
+    }
+    .gyan{
+   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        border-radius: 10%;
+        width: 460px;
+        margin-bottom: 40px;
+        justify-content: center;
+        margin-top: 60px;
+        
+
+    
+    }
+    .footer {
+        width: 100%;
+        min-height: 100px;
+        padding: 20px 10px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        background: whitesmoke;
+        text-align: center;
+    }
+
+}
+@media only screen and (max-width: 1024px) and (min-width: 800px){
+    .main
+    {
+        padding: 0px 15px;
+    }
+    .gyan
+    {
+        margin-right: 15px;
+    }
+    .yash
+    {
+        margin-right: 15px;
+    }
+}
+
