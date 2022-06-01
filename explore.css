@@ -312,7 +312,7 @@ width: 90%;
 {
     /* margin-top: 5%; */
     background: rgb(155, 215, 215);
-    background: linear-gradient(rgb(67, 255, 230),rgb(205, 249, 247));
+    background: linear-gradient(to bottom left,rgb(67, 255, 230),rgb(246, 246, 246));
     /* border-radius: 15px; */
     
     margin-top: 5%;
