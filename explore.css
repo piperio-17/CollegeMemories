@@ -218,7 +218,7 @@ width: 90%;
 {
     text-align: center;
     font-family: Playfair Display;
-    font-size: 7vmin;
+    font-size: 4vmin;
 }
 /*Slidehow*/
 .container
@@ -285,12 +285,10 @@ width: 90%;
 }
 /*Hostel video*/
 .titlev
-{
+ {
     margin-top: 5%;
-    text-align: center;
-    /* font-family: Lobster; */
-    font-size: 7vmin; 
-}
+   
+} 
 /* .vid{
     /* background: rgb(155, 215, 215); 
 } */
