@@ -120,7 +120,8 @@ header
 .campus{
 
 /* background: rgb(179, 255, 255); */
-background: url(https://wallpaperaccess.com/full/831436.jpg);
+background: url(collegeBackground.png);
+
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -291,9 +292,6 @@ width: 90%;
     margin-top: 5%;
    
 } 
-/* .vid{
-    /* background: rgb(155, 215, 215); 
-} */
 .videos
 {
     margin-top: 5%;
@@ -306,19 +304,14 @@ width: 90%;
     border-radius: 15px;
     
 }
-.videos:hover
-{
-    
-}
+
 /*Exploring Places*/
 
 .tours
 {
-    /* margin-top: 5%; */
+   
     background: rgb(155, 215, 215);
     background: linear-gradient(to bottom left,rgb(67, 255, 230),rgb(246, 246, 246));
-    /* border-radius: 15px; */
-    
     margin-top: 5%;
 }
 .tours .row
@@ -395,4 +388,17 @@ align-items: center;
 .footer a {
     text-decoration: none;
     color: rgb(199, 29, 29);
+}
+.goup
+{
+    background-color: whitesmoke;
+    text-align: end;
+    padding-right: 15px;
+    color: darkblue;
+    padding-bottom: 5px;
+}
+.goup a
+{
+    background-color: whitesmoke;
+    
 }
