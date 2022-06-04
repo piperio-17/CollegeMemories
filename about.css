@@ -337,10 +337,11 @@ body{
 }
 
 
-@media only screen and (max-width: 1024px) and (min-width: 800px){
+@media only screen and (max-width: 1024px) {
+   
     .main
     {
-        padding: 0px 15px;
+        padding: 20px 15px;
     }
     .gyan
     {
