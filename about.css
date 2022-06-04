@@ -10,16 +10,19 @@ body,html
     margin-left: 0;
 }
 .navbar {
+
     position: absolute;
     top: 0;
     left: 0;
     display: flex;
     justify-content: space-around;
     width: 100%;
+    padding-top:30px;
     color: black;
 }
 .logo {
-    padding: 2px 3px;
+    padding: 2px 0px;
+    padding-right: 5px;
     font-weight: bold;
     font-size: 5vmin;
     font-family: Roboto;
@@ -31,24 +34,81 @@ body,html
 }
 
 #home {
+    color: #fc035b;
+    font-weight: bold;  
     
-    color: red;
-    font-weight: bold; 
-   
 }
 #home:hover {
-    
     color: black;
-    
+    /* font-size: x-large; */
 }
 #cl {
-    color: red;
+    color: #fc035b;
     font-weight: bold;  
 }
 #cl:hover {
     color: black;
-   
+    /* font-size: x-large; */
 }
+
+
+/* Dropdown Button */
+.dropbtn {
+    padding: 8px 15px;
+    color: #fc035b;
+    /* background:#fc035b ;
+    color: whitesmoke ;
+    border-radius: 30px; */ 
+    border: none; 
+    background: transparent;
+}
+
+.dropbtn:hover{
+    cursor: pointer;
+    color: black;
+    background: none;
+    /* background: whitesmoke;
+    color: #fc036b;
+    box-shadow: 2px 2px 5px #00000056; */
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+      background:none;
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    color: #fc036b;
+    min-width: 160px;
+    box-shadow: 2px 2px 5px #00000056;
+    border: none;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border: none;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block; }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background: whitesmoke; color: #fc036b; border: none;}
+  
 .navbar ul {
     list-style: none;
 }
@@ -64,17 +124,34 @@ body,html
     color: #fc036b;
     cursor: pointer;
     box-shadow: 2px 2px 5px #00000056;
-    
+    /* font-size: large; */
 }
-.menu-btn
-{
-    display: none;
+.ctn1 {
+    color: #fc036b;
+}
+.ctn1:hover {
+    color: black;
 }
 .ctn {
     padding: 8px 15px;
-    color: whitesmoke;
-    background: #fc036b;
+    background:#fc035b ;
+    color: whitesmoke ;
     border-radius: 30px;    
+}
+
+.ctn:hover {
+    background: whitesmoke;
+    color: #fc036b;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #00000056;
+}
+.menu-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
 }
 
 a {
@@ -259,248 +336,7 @@ body{
     color: rgb(199, 29, 29);
 }
 
-@media only screen and (max-width:450px){
-    .navbar {
-        padding: 0;
-    }
-    body,html
-    {
-        overflow-x: hidden;
-    }
-    .logo {
-        position: absolute;
-        top: 30px;
-        left: 30px;
-        font-size: 5vmin;
-        
-    }
-    .menu-btn {
-        display: block;
-        width: 40px;
-        /* margin-top: 15px; */
-        margin-right: 25px;
-        /* margin-bottom: 10px; */
-    }
-    .nav-links {
-        flex-direction: column;
-        width: 100%;
-        height: 100vh;
-        justify-content: center;
-        background: #484872;
-        margin-top: -1100px;/*Change 2*/
-        transition: all 0.5s ease;
-    }
-    .mobile-menu {
-        margin-top: 0px;
-        border-bottom-right-radius: 30%;
-        
-    }
-    .nav-links li {
-        margin: 30px auto;
-    }
-   
-    .main{
-        display: flex;
-        flex-direction: column;
-        padding-left: 20px;
-        /* width: fit-content; */
-    }
-    .manu{
-    
-        /* display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-        width: 260px;
-        background-color: white;
-        border-radius: 10%;
-        margin-bottom: 40px; */
-        display: flex;
-        flex-direction: row;
-        padding-top: 15px;
-        padding-bottom: 15ppx;
-        
-        margin-right: 10px;
-        margin-bottom: 15px;
-    }
 
-    .imgm
-    {
-        width: 130px;
-        padding-left: 15px;
-    }
-    .textm
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .yash{
-        
-        /* display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 460px;
-        background-color: white;
-        border-radius: 10%;
-        margin-bottom: 40px; */
-        display: flex;
-        flex-direction: row;
-        
-        padding-top: 15px;
-        padding-bottom: 15ppx;
-        
-        margin-right: 10px;
-        margin-bottom: 15px;
-    }
-    .imgy
-    {
-        width: 130px;
-        padding-left: 15px;  
-    }
-    .gyan{
-   
-        /* display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: white;
-        border-radius: 10%;
-        width: 460px;
-        margin-bottom: 40px;
-        justify-content: center;
-         margin-top: 60px; */
-         display: flex;
-        flex-direction: row;
-        padding-top: 15px;
-        padding-bottom: 15ppx;
-        /* margin-left:5px; */
-        margin-right: 10px;
-        margin-bottom: 15px;
-        margin-top: 55px;
-    
-    }
-    .textg
-    {
-        margin-top: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .textg h2
-    {
-        font-size: 4vmin;
-    }
-    .imgg
-    {
-        width: 130px;
-        padding-left: 15px;  
-    }
-    .footer {
-        width: 100%;
-        min-height: 100px;
-        padding: 20px 10px;
-        margin-top: 15px;
-        margin-bottom: 0px;
-        background: whitesmoke;
-        text-align: center;
-    }
-
-}
-
-    @media only screen and (max-width: 800px) and (min-width: 450px){
-    .navbar {
-        padding: 0;
-    }
-    body,html
-    {
-        overflow-x: hidden;
-    }
-    .logo {
-        position: absolute;
-        top: 30px;
-        left: 30px;
-        
-    }
-    .nav-links {
-        flex-direction: column;
-        width: 100%;
-        height: 100vh;
-        justify-content: center;
-        background: #484872;
-        margin-top: -1100px;/*Change 2*/
-        transition: all 0.5s ease;
-    }
-    .mobile-menu {
-        margin-top: 0px;
-        border-bottom-right-radius: 30%;
-        
-    }
-    .nav-links li {
-        margin: 30px auto;
-    }
-    .menu-btn {
-        display: block;
-        width: 60px;
-        margin-right: 35px;
-    }
-    .main{
-        display: flex;
-        flex-direction: column;
-        padding-left:135px;
-        width: fit-content;
-    }
-    .manu{
-    
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-        width: 460px;
-        background-color: white;
-        border-radius: 10%;
-        margin-bottom: 40px;
-        /* margin-left: 35px; */
-    }
-    
-    
-    .yash{
-        
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 460px;
-        background-color: white;
-        border-radius: 10%;
-        margin-bottom: 40px;
-        /* margin-left: 35px; */
-    }
-    .gyan{
-   
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: white;
-        border-radius: 10%;
-        width: 460px;
-        margin-bottom: 40px;
-        justify-content: center;
-        margin-top: 60px;
-        
-
-    
-    }
-    .footer {
-        width: 100%;
-        min-height: 100px;
-        padding: 20px 10px;
-        margin-top: 15px;
-        margin-bottom: 0px;
-        background: whitesmoke;
-        text-align: center;
-    }
-
-}
 @media only screen and (max-width: 1024px) and (min-width: 800px){
     .main
     {
